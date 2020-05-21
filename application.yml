@@ -4,3 +4,7 @@ gateway:
 token:
   expiration_time: 86400000 # 1days miiliseconds (하루짜리 토큰)
   secret: mq_secret
+
+exception:
+  albums-not-found: Change Users albums are not found
+  account-not-found: account not found!
